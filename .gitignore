@@ -1,0 +1,58 @@
+# Build artifacts
+build/
+build-*/
+out/
+cmake-build-*/
+Release/
+Debug/
+
+# CMake generated
+CMakeFiles/
+CMakeCache.txt
+CMakeUserPresets.json
+cmake_install.cmake
+install_manifest.txt
+Testing/
+
+# Compiled output
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.exe
+*.exp
+*.pdb
+*.ilk
+*.idb
+*.so
+*.dylib
+
+# Audio plugin formats
+*.vst3
+*.component
+*.aaxplugin
+
+# IDE / editor
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln.docstates
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Personal screenshots / reference images at repo root
+/*.png
+/*.jpg
+/*.jpeg
+
+# Personal working notes
+/progress_15_04.md
+/refine_tonalizer.md
+
+# Internal save-point snapshot
+snapshots/
